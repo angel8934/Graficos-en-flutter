@@ -1,0 +1,30 @@
+name: manga_graph_nexus
+description: Manga Graph Nexus - plataforma académica de comparación de librerías de gráficos Flutter.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.10.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  http: ^1.5.0
+
+  fl_chart: ^1.2.0
+  graphic: ^2.7.0
+  syncfusion_flutter_charts: ^35.1.37
+  charts_painter: 3.1.1
+  fusion_charts_flutter: ^1.2.2
+  fast_charts: ^0.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
